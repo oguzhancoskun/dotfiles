@@ -20,11 +20,9 @@ function M.setup()
   vim.g.python3_host_prog = '~/.pyenv/shims/python3'
   vim.opt.clipboard = "unnamedplus"
   vim.cmd.colorscheme "catppuccin"
-  vim.g.startify_custom_header = vim.fn.readfile('/Users/elgormus/.config/nvim/data/banner.txt')
-  --vim.g.startify_custom_footer = vim.fn.readfile('/Users/elgormus/.config/nvim/data/footer.txt')
+  vim.g.startify_custom_header = vim.fn.readfile('/Users/User/.config/nvim/data/banner.txt')
   vim.g.startify_bookmarks = {
-    {i = '~/ws/fh/devops/terraform-v2'},
-    {j = '~/ws/fh/k8s'},
+    {j = '~/ws/ns/k8s'},
   }
 
 
